@@ -12,8 +12,8 @@ console.log('typeof totalPets:', typeof totalPets);
 
 const empty: null = null;
 console.log('value of empty:', empty);
-console.log('typeof empty:', empty);
+console.log('typeof empty:', typeof empty);
 
 let nothing: undefined;
 console.log('value of nothing:', nothing);
-console.log('typeof nothing:', nothing);
+console.log('typeof nothing:', typeof nothing);
