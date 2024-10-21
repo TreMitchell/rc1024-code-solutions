@@ -1,0 +1,16 @@
+'use strict';
+const fullName = 'Tré Mitchell';
+const isCool = true;
+const totalPets = 0;
+console.log('fullName:', fullName);
+console.log('isCool:', isCool);
+console.log('totalPets:', totalPets);
+console.log('typeof fullName:', typeof fullName);
+console.log('typeof isCool:', typeof isCool);
+console.log('typeof totalPets:', typeof totalPets);
+const empty = null;
+console.log('value of empty:', empty);
+console.log('typeof empty:', typeof empty);
+let nothing;
+console.log('value of nothing:', nothing);
+console.log('typeof nothing:', typeof nothing);
