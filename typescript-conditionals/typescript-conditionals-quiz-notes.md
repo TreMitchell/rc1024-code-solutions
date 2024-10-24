@@ -17,7 +17,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What are the three logical operators?
   Logical AND (&&), Logical OR (||), and Logical NOT (!)
 - How do you compare two different expressions in the same condition?
-  with an else-if statement
+  with a logical or / logical and operators
 - What is the purpose of a `switch` statement?
   To have a collection of conditionals or cases that needs to be checked against. It is more readable and user-friendly.
 - Is a `default` clause required in order to use a `switch` statement?
