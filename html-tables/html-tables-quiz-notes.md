@@ -9,7 +9,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What purpose do the `thead` and `tbody` elements serve?
   <thead> defines the column titles with the table rows (<tr>). <tbody> wraps all the content rows of the table.
 - Give two examples of data that would lend itself well to being displayed in a table.
-  A calendar & statistical data
+  A calendar & statistical sports data
 
 ## Notes
 
