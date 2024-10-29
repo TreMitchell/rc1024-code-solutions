@@ -9,7 +9,7 @@ Answer the following questions in the provided markdown file before turning in t
 - How do inline elements affect the document flow?
   They occupy the space bounded by the tags defining the element.
 - What are the default width and height of a block-level element?
-  The full width available for the page. The height is it's contents.
+  The full width available for the page and the height is it's contents.
 - What are the default width and height of an inline element?
   The width is space necessary for the content to fit. The height is it's contents.
 
