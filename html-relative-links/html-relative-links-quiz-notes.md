@@ -7,7 +7,7 @@ Answer the following questions in the provided markdown file before turning in t
 - How do you indicate the relative link to a parent directory?
   You would use this indicator: (../)
 - How do you indicate the relative link to a child directory?
-  The name of the child directory followed by a forward slash and then the filename. Something like this: (child/filename.html)
+  The name of the child directory followed by a forward slash and then the filename. Something like this: (./)
 - How do you indicate the relative link to a grand parent directory?
   You would use this indicator: (../..)
 - How do you indicate the relative link to the same directory?
