@@ -15,7 +15,7 @@ Answer the following questions in the provided markdown file before turning in t
 - Give five examples of HTML element types.
   <h1>, <p>, <img>, <body>, <head>
 - What is the purpose of HTML attributes?
-  To contain any additional information or functionality for elements, usually in name/value pairs.
+  To contain any additional information or functionality for elements, usually in name/value pairs
 - Give an example of an HTML entity (escape character).
   (&copy;)
 
