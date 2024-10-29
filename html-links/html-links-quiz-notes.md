@@ -5,11 +5,11 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What HTML tag is used to link to another website?
-  The anchor tag (<a>)
+  The anchor tag (<a>).
 - What is an absolute URL?
-  A URL that specifies the complete web address
+  A URL that specifies the complete web address.
 - What is a relative URL?
-  A URL that specifies the path to the linked web address
+  A URL that specifies the path to the linked web address.
 
 ## Notes
 
