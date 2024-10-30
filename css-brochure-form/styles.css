@@ -1,0 +1,48 @@
+h2 {
+  color: #ec5c57;
+  font-size: 1.5em;
+}
+
+h2,
+form {
+  text-align: center;
+  font-family: AtlasGrotesk, sans-serif;
+  text-transform: uppercase;
+}
+
+input {
+  width: 20em;
+  font-size: 19px;
+}
+
+label {
+  font-size: 13px;
+  margin-left: 1rem;
+}
+
+:placeholder-shown {
+  font-family: AtlasGrotesk, sans-serif;
+}
+
+button {
+  margin-top: 1rem;
+  margin-left: 4in;
+  border: 5px;
+  background-color: #ec5c57;
+  color: white;
+  font-size: 15px;
+  width: 5rem;
+  height: 2rem;
+  text-transform: uppercase;
+}
+
+button:hover {
+  cursor: pointer;
+  color: black;
+}
+
+div > select {
+  width: 20em;
+  font-size: 19px;
+  background-color: #f3f3f3;
+}
