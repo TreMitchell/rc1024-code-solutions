@@ -1,0 +1,37 @@
+body {
+  color: #090302;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+article {
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 1px solid;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+/* another way to do the padding: padding 0 16px;
+  0 mean up and down while 16px means left and right
+*/
+
+.title {
+  font-family: monospace;
+  font-size: 24px;
+}
+
+#html {
+  color: red;
+}
+
+#css {
+  color: green;
+}
+
+#js {
+  color: blue;
+}
