@@ -25,7 +25,7 @@ Answer the following questions in the provided markdown file before turning in t
 - Why would a `<script>` tag need to be placed at the bottom of the HTML content instead of at the top?
   the elements load before the script and you would get null if the file is above
 - What does `document.querySelector()` take as its argument and what does it return?
-  a CSS selector syntax and it returns all the elements matching the syntax.
+  a string and it returns all the elements matching the syntax.
 - What does `document.querySelectorAll()` take as its argument and what does it return?
   a CSS selector syntax and it returns all the elements matching the syntax.
 
