@@ -7,7 +7,7 @@ Answer the following questions in the provided markdown file before turning in t
 - The `transition` property is shorthand for which four CSS properties?
   transition-property, transition-duration, transition-timing-function, and transition-delay
 - What does the `transform` property do?
-  modifies how an element appears on a webpage by rotating, scaling, skewinfg or translating the element
+  modifies how an element appears on a webpage by rotating, scaling, skewing or translating the element
 - Give four examples of CSS transform functions.
   rotate(), scale(), skew(), translate()
 
