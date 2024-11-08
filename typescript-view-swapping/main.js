@@ -12,7 +12,6 @@ $tabContainer.addEventListener('click', (event) => {
     $tab.forEach((tab) => {
       if (tab === $eventTarget) {
         tab.className = 'tab active';
-        console.log('Switched tab to:', tab);
       } else {
         tab.className = 'tab';
       }
@@ -22,7 +21,6 @@ $tabContainer.addEventListener('click', (event) => {
     $view.forEach(($view) => {
       if ($view.getAttribute('data-view') === $selectedView) {
         $view.classList.remove('hidden');
-        console.log('view shown for:', $selectedView);
       } else {
         $view.classList.add('hidden');
       }
