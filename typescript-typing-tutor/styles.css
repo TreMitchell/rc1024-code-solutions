@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phrase {
+  border-bottom: 3px solid;
+  padding: 5px;
+}
+
+.phrase.active {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  border-bottom: 2px solid black;
+}
+
+#feedback {
+  font-size: 1rem;
+  margin-top: 15px;
+  color: #000;
+}
