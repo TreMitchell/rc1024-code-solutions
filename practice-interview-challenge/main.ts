@@ -1,4 +1,13 @@
-function getRangeReport(start: number, end: number): number[] {
+interface RangeReport {
+  total: number;
+  odds: number[];
+  evens: number[];
+  range: number[];
+  average: number;
+}
+
+
+function getRangeReport(start: number, end: number): RangeReport {
   let total = 0;
   const odds: number[] = [];
   const evens: number[] = [];
