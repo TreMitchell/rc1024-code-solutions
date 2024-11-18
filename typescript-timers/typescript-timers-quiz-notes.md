@@ -13,7 +13,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What is the default time delay if you omit the `delay` parameter from `setTimeout()` or `setInterval()`?
   0 milliseconds / 0 seconds
 - What do `setTimeout()` and `setInterval()` return?
-  ? they both return a function ?
+  they both return the timerID
 
 ## Notes
 
