@@ -1,12 +1,16 @@
 let count = 4;
-const countdownInterval = setInterval(() => {
-  const $countdown = document.querySelector('.countdown-display');
-  if (!$countdown) throw new Error('countdown query failed!');
+const $countdownDisplay = document.querySelector(".countdown-display");
+
+function countDown(): void {
+  if (!$countdownDisplay) throw new Error("$countdownDisplay is null");
+
+  count--;
   if (count > 0) {
-    $countdown.textContent = count.toString();
-    count--;
+    $countdownDisplay.textContent = count.toString();
   } else {
-    $countdown.textContent = '~Earth Beeeelooowww Us~';
-    clearInterval(countdownInterval);
+    $countdownDisplay.textContent = "~Earth Below Us~";
+    clearInterval(countDownId);
   }
-}, 1000);
+}
+
+const countDownId = setInterval(countDown, 1000);
