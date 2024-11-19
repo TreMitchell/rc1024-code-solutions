@@ -10,9 +10,7 @@ const book1: Book = {
   libraryId: 3353,
 };
 
-const title = book1.title;
-const author = book1.author;
-const libraryId = book1.libraryId;
+const { title, author, librarhyId } = book1;
 
 console.log(
   `The title of the book is ${title}, the author is ${author}, and the library id is ${libraryId}.`
