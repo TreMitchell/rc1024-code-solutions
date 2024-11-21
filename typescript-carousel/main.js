@@ -11,10 +11,10 @@ function showIndex(targetIndex) {
   for (let i = 0; i < $images.length; i++) {
     if (i === targetIndex) {
       $images[i].className = 'pokemon-image';
-      $progressDots[i].className = 'fa solid';
+      $progressDots[i].className = 'fa-solid fa-circle';
     } else {
-      $images[i].className = 'pokemon-image';
-      $progressDots[i].className = 'fa regular';
+      $images[i].className = 'pokemon-image hidden';
+      $progressDots[i].className = 'fa-regular fa-circle';
     }
   }
   currentIndex = targetIndex;
