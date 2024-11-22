@@ -13,9 +13,9 @@ async function fetchUser(): Promise<void> {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
-    const pokemon = (await response.json()) as User;
+    const bulbasaur = (await response.json()) as User;
 
-    console.log(pokemon);
+    console.log(bulbasaur);
   } catch (err) {
     console.error('Error:', err);
   }
@@ -37,9 +37,9 @@ async function fetchPokemon(): Promise<void> {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
-    const pokemon = (await response.json()) as Pokemon;
+    const bulbasaur = (await response.json()) as Pokemon;
 
-    console.log(pokemon);
+    console.log(bulbasaur);
   } catch (err) {
     console.error('Error:', err);
   }
