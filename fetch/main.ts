@@ -13,9 +13,9 @@ async function fetchUser(): Promise<void> {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
-    const bulbasaur = (await response.json()) as User[];
+    const user = (await response.json()) as User[];
 
-    console.log(bulbasaur);
+    console.log(user);
   } catch (err) {
     console.error('Error:', err);
   }
