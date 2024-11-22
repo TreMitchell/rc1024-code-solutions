@@ -13,7 +13,7 @@ async function fetchUser(): Promise<void> {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
-    const bulbasaur = (await response.json()) as User;
+    const bulbasaur = (await response.json()) as User[];
 
     console.log(bulbasaur);
   } catch (err) {
