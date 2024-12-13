@@ -5,22 +5,17 @@ type Props = {
 };
 
 export default function RotatingBanner({ items }: Props) {
-  // console.log(items);
   const [currentIndex, setCurrentIndex] = useState(0);
-  // console.log('currentIndex:', currentIndex);
 
   function handlePrevClick() {
-    // console.log('handle prev clicked fired');
     setCurrentIndex((currentIndex - 1 + items.length) % items.length);
   }
 
   function handleNextClick() {
-    // console.log('handle next clicked fired');
     setCurrentIndex((currentIndex + 1) % items.length);
   }
 
   function handleIndicatorClick(index: number) {
-    // console.log('handleIndicatorClick fired');
     setCurrentIndex(index);
   }
 
@@ -43,7 +38,6 @@ type BannerProps = {
 };
 
 function Banner({ item }: BannerProps) {
-  // console.log('item prop value inside Banner component', item);
   return <h1>{item}</h1>;
 }
 
@@ -73,7 +67,6 @@ function Indicators({
   activeIndex,
   onHandleIndicatorClick,
 }: IndicatorsProps) {
-  // console.log('Active index from current indicators:', activeIndex);
   const buttons = [];
   for (let i = 0; i < count; i++) {
     buttons.push(
